@@ -1,7 +1,6 @@
 module.exports = function () {
   // require
   var os = require("os");
-  var npm = require("npm");
   var express = require("express");
   var socketServer = require("ws").Server;
   var compression = require("compression");
@@ -23,6 +22,7 @@ module.exports = function () {
 
   // version info
   mainQue.push(function(resolve){
+    var npm = require(conf.npm);
     npm.load(function(err, npm) {
       npm.commands.ls([], true, function(err, data) {
         var dep = data.dependencies;
@@ -193,6 +193,7 @@ module.exports = function () {
   this.version = "0.6.0";
   this.port = 2000;
   this.url = "127.0.0.1";
+  this.npm = "/usr/local/lib/node_modules/npm";
   this.mount = "/srcerer/";
   this.app = "app/";
   this.db = {
