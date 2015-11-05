@@ -21,6 +21,7 @@
   ],
 
   "dependencies": {
+    "npm": ">=2.0.0",
     "fs-extra": ">=0.26.1",
     "body-parser": ">=1.14.1",
     "compression": ">=1.6.0",
