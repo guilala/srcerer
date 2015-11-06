@@ -45,7 +45,7 @@ module.exports = function () {
   mainQue.push(function(resolve){
     if(
       conf &&
-      conf.url
+      conf.domain
     ) resolve();
     else console.error("Conditions not met");
   });
@@ -74,7 +74,7 @@ module.exports = function () {
     app.set("env", "production");
     app.set("title", conf.name);
     app.set("version", conf.version);
-    app.set("trust proxy", "127.0.0.1"); // X-Forwarded-* headers
+    app.set("trust proxy", conf.domain); // X-Forwarded-* headers
     app.use(compression());
     app.use(cookieParser());
     app.use(cookieSession({
@@ -149,7 +149,7 @@ module.exports = function () {
 
   // start express
   mainQue.push(function(resolve){
-    server = app.listen(conf.port, conf.url);
+    server = app.listen(conf.port, conf.domain);
     resolve();
   });
 
@@ -196,53 +196,20 @@ module.exports = function () {
 
   // default
   this.name = "Srcerer";
-  this.version = "0.6.0";
+  this.version = "0.6.2";
   this.port = 2000;
-  this.url = "127.0.0.1";
+  this.domain = "127.0.0.1";
   this.npm = "/usr/local/lib/node_modules/npm";
-  this.mount = "/srcerer/";
-  this.app = "app/";
-  this.db = {
-    "pxl": "mongodb://localhost/sorcerer",
-    "guila.la": "mongodb://localhost/sorcerer",
-    "rmb.local": "mongodb://localhost/sorcerer",
-    "sleepy": "mongodb://localhost/sorcerer",
-    "duoMe": "mongodb://localhost/sorcerer"
-  };
-  this.modules = [
-    {
-      "host": "*",
-      "path": "./share/blob/visit/module/visit.js",
-      "mount": "/visit"
-    },
-    {
-      "host": "*",
-      "path": "./share/blob/visit/module/log.js",
-      "mount": "/log"
-    },
-    {
-      "host": "*",
-      "path": "./share/blob/upload/module/receive.js",
-      "mount": "/upload"
-    }
-  ];
-  this.sockets = [
-    {
-      "host": "*",
-      "mount": "kettle",
-      "path": "./app/button/blob/kettle/socket.js"
-    }, {
-      "host": "*",
-      "mount": "clerk",
-      "path": "./app/clerk/blob/main/socket.js"
-    }
-  ];
+  this.app = ".";
+  this.db = {};
+  this.modules = [];
+  this.sockets = [];
 
   this.start = function(directConf){
     conf = directConf || conf;
     mainQue.then(function(){
       console.log("\n\x1b[0m%s\nNode %s\x1b[36m @ %s", new Date(), process.version, host);
-      console.log("\x1b[35m%s v%s\x1b[36m @ %s:%s\x1b[0m\n", conf.name, conf.version, conf.url, conf.port);
+      console.log("\x1b[35m%s v%s\x1b[36m @ %s:%s\x1b[0m\n", conf.name, conf.version, conf.domain, conf.port);
       resolve();
     });
   }
