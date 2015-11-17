@@ -5,15 +5,16 @@
  */
 var server = require("./lib/server");
 
-module.exports = function () {
-   var conf = this;
+module.exports = function (extConf) {
+   var configuration = this;
 
    this.name = "Srcerer";
    this.version = "0.6.2";
    this.port = 2000;
    this.domain = "127.0.0.1";
    this.npm = "/usr/local/lib/node_modules/npm";
-   this.app = ".";
+   this.root = "./"
+   this.appsRoot = "./";
 
    // Mongodb connections
    this.db = {
@@ -31,7 +32,13 @@ module.exports = function () {
    ];
 
    // main
-   this.start = function(directConf){
-      server(directConf || conf);
+   this.start = function(){
+      // map external to internal configuration
+      for(key in extConf){
+         if(extConf.hasOwnProperty(key) && configuration.hasOwnProperty(key)){
+            configuration[key] = extConf[key];
+         }
+      }
+      server(configuration);
    };
 };
