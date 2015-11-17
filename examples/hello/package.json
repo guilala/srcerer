@@ -1,7 +1,7 @@
 {
-	"name": “Hello",
+	"name": "Hello",
 	"version": "0.0.1",
-	"description": "basic Srcerer example”,
+	"description": "basic Srcerer example",
 	"private": true,
 
 	"repository": {
