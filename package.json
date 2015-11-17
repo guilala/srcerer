@@ -21,7 +21,7 @@
    ],
 
    "dependencies": {
-      "fs-extra": ">=0.26.1",
+      "fs-extra": ">=0.26.2",
       "body-parser": ">=1.14.1",
       "compression": ">=1.6.0",
       "cookie-parser": ">=1.4.0",
@@ -29,10 +29,10 @@
       "express": ">=4.13.3",
       "proxy-addr": "1.0.8",
       "less": ">=2.5.3",
-      "mongoose": ">=4.2.3",
+      "mongoose": ">=4.2.6",
       "string-hash": ">=1.1.0",
-      "svgo": ">=0.5.6",
-      "uglify-js": ">=2.5.0",
+      "svgo": ">=0.6.0",
+      "uglify-js": ">=2.6.1",
       "ws": ">=0.8.0",
       "geoip-ultralight": "0.1.1"
    },
