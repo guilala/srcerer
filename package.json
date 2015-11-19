@@ -33,8 +33,7 @@
       "string-hash": ">=1.1.0",
       "svgo": ">=0.6.0",
       "uglify-js": ">=2.6.1",
-      "ws": ">=0.8.0",
-      "geoip-ultralight": "0.1.1"
+      "ws": ">=0.8.0"
    },
 
    "engines": {
