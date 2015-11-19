@@ -1,16 +1,19 @@
 (function(){return{
-	m: function (next) {
-		this.modelStr = "Hello"
-	},
+   m: function (next) {
+      this.modelStr = "Hello";
+      next();
+   },
 
-	v: function () {
+   v: function () {
     var self = this;
     return {
-      str: self.modelStr
+      str: self.modelStr,
+      css: "main"
     }
   },
 
-	c: function (next) {
-		next();
-	}
+   c: function (next) {
+      next();
+      
+   }
 }})()

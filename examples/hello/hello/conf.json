@@ -1,49 +1,43 @@
 {
-	"name": "Hello",
-	"version": "0.0.1",
-	"meta": [
-	  {
-			"charset": "utf-8"
-	  },
-	  {
-			"name": "Author",
-			"content": "guila.la"
-	  },
-	  {
-			"name": "Description",
-			"content": "Example application"
-	  },
-	  {
-			"name": "Keywords",
-			"content": "srcerer, guila.la"
-	  },
-	  {
-			"name": "Viewport",
-			"content": "initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"
-	  },
-	  {
-			"name": "Apple-mobile-web-app-capable",
-			"content": "yes"
-	  },
-	  {
-			"http-equiv": "x-ua-compatible",
-			"content": "IE=edge"
-	  }
-	],
-	"ext": [],
-	"lib": [],
-	"worker": [],
-	"style": ["index.less"],
-	"stylePaths": ["./"],
-	"static": ["www/"],
-	"deployFile": "www/index.html",
-	"app": [],
-	"blob": [
-	  {
-			"path": "./",
-			"modules": [
-				 "main"
-			]
-	  }
-	]
+   "name": "Hello",
+   "version": "0.0.1",
+   "meta": [
+     {
+         "charset": "utf-8"
+     },
+     {
+         "name": "Author",
+         "content": "guila.la"
+     },
+     {
+         "name": "Description",
+         "content": "Example application"
+     },
+     {
+         "name": "Keywords",
+         "content": "srcerer, guila.la"
+     },
+     {
+         "name": "Viewport",
+         "content": "initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"
+     },
+     {
+         "name": "Apple-mobile-web-app-capable",
+         "content": "yes"
+     },
+     {
+         "http-equiv": "x-ua-compatible",
+         "content": "IE=edge"
+     }
+   ],
+   "ext": [],
+   "lib": [],
+   "style": ["index.less"],
+   "stylePaths": ["./"],
+   "static": ["www/"],
+   "index": "index.html",
+   "app": [],
+   "blobPath": [
+     "blob/"
+   ]
 }
