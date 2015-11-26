@@ -9,7 +9,7 @@ module.exports = function (extConf) {
    var configuration = this;
 
    this.name = "Srcerer";
-   this.version = "0.6.5";
+   this.version = "0.6.6";
    this.port = 2000;
    this.domain = "127.0.0.1";
    this.npm = "/usr/local/lib/node_modules/npm";
