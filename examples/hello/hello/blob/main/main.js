@@ -7,8 +7,18 @@
    v: function () {
     var self = this;
     return {
-      str: self.modelStr,
-      css: "main"
+      css: "main",
+      elm: [{
+        str: self.modelStr,
+        elm: [{
+          svg: "ic_kettle_24px"
+        }, {
+          css: "world",
+          blob: {
+            name: "world"
+          }
+        }]
+      }]
     }
   },
 

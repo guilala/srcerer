@@ -6,10 +6,10 @@
 
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:guilala/sorcerer.git"
+		"url": "git@github.com:guilala/srcerer.git"
 	},
 
 	"dependencies": {
-		"srcerer": ">=0.1.0"
+		"srcerer": ">=0.6.7"
 	}
 }
