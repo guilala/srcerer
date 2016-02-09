@@ -8,11 +8,10 @@ var server = require("./lib/server");
 module.exports = function (extConf) {
    var configuration = this;
 
-   this.name = "Srcerer";
+   this.name = "Bubbles";
    this.version = "0.6.6";
    this.port = 2000;
    this.domain = "127.0.0.1";
-   this.npm = "/usr/local/lib/node_modules/npm";
    this.root = "./"
    this.appsRoot = "./";
 

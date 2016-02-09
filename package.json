@@ -1,6 +1,6 @@
 {
    "name": "srcerer",
-   "version": "0.6.6",
+   "version": "0.6.7",
    "description": "Build light and modular web applications",
    "private": false,
    "author": "Jesse Tijnagel <jesse@guila.la>",
@@ -21,19 +21,19 @@
    ],
 
    "dependencies": {
-      "fs-extra": ">=0.26.2",
-      "body-parser": ">=1.14.1",
-      "compression": ">=1.6.0",
-      "cookie-parser": ">=1.4.0",
-      "cookie-session": ">=2.0.0-alpha.1",
-      "express": ">=4.13.3",
-      "proxy-addr": "1.0.8",
-      "less": ">=2.5.3",
-      "mongoose": ">=4.2.6",
-      "string-hash": ">=1.1.0",
-      "svgo": ">=0.6.0",
-      "uglify-js": ">=2.6.1",
-      "ws": ">=0.8.0"
+      "fs-extra": "0.26.5",
+      "body-parser": "1.14.2",
+      "compression": "1.6.1",
+      "cookie-parser": "1.4.1",
+      "cookie-session": "1.2.0",
+      "express": "4.13.4",
+      "proxy-addr": "1.0.10",
+      "less": "2.6.0",
+      "mongoose": "4.4.2",
+      "string-hash": "1.1.0",
+      "svgo": "0.6.1",
+      "uglify-js": "2.6.1",
+      "ws": "1.0.1"
    },
 
    "engines": {
