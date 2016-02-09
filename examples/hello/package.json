@@ -10,6 +10,6 @@
 	},
 
 	"dependencies": {
-		"srcerer": ">=0.6.7"
+		"srcerer": ">=0.6.8"
 	}
 }
