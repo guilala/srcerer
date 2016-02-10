@@ -51,7 +51,7 @@
    ],
 
    "scripts": {
-      "test": "node examples/hello/main.js"
+      "test": "node test/all.js"
    },
 
    "devDependencies": {
