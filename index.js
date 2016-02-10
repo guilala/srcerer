@@ -9,7 +9,7 @@ module.exports = function (extConf) {
    var configuration = this;
 
    this.name = "Bubbles";
-   this.version = "0.6.9";
+   this.version = "0.6.11";
    this.port = 2000;
    this.domain = "127.0.0.1";
    this.root = "./"
