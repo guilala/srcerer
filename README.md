@@ -12,3 +12,5 @@ npm link ../..
 node main.js
 ```
 And open in a browser: [localhost:2001/hello/](http://localhost:2001/hello/)
+should look like:
+![helloWorld.png](https://www.guila.la/helloWorld.png)
