@@ -13,4 +13,4 @@ node main.js
 ```
 And open in a browser: [localhost:2001/hello/](http://localhost:2001/hello/)
 should look like:
-[[https://www.guila.la/helloWorld.png|alt=helloWorld.png]]
+![alt tag](https://www.guila.la/helloWorld.png)
