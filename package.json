@@ -1,6 +1,6 @@
 {
    "name": "srcerer",
-   "version": "0.6.11",
+   "version": "0.6.12",
    "description": "Build light and modular web applications",
    "private": false,
    "author": "Jesse Tijnagel <jesse@guila.la>",
@@ -22,7 +22,7 @@
 
    "dependencies": {
       "fs-extra": "0.26.5",
-      "body-parser": "1.14.2",
+      "body-parser": "1.15.0",
       "compression": "1.6.1",
       "cookie-parser": "1.4.1",
       "cookie-session": "1.2.0",
