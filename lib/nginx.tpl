@@ -2,11 +2,11 @@
 server {
    listen *:443;
    server_name <<domains>>;
-   root /home/sorcerer/lighty/sorcerer/<<app>>;
+   root <<app>>;
 
    index index.html index.htm;
    error_page 404 500 502 503 504 /e0x.html;
-   location = /e0x.html { root /home/sorcerer/lighty/sorcerer/<<errors>>; }
+   location = /e0x.html { root <<errors>>; }
 
    location /sorcerer/ {
       # destination
@@ -23,8 +23,8 @@ server {
    }
 
    ssl on;
-   ssl_certificate /home/sorcerer/lighty/sorcerer/<<crt>>;
-   ssl_certificate_key /home/sorcerer/lighty/sorcerer/<<key>>;
+   ssl_certificate <<crt>>;
+   ssl_certificate_key <<key>>;
    ssl_session_cache shared:SSL:1m;
    ssl_session_timeout 5m;
    ssl_ciphers HIGH:!aNULL:!MD5;
