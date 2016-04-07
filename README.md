@@ -19,7 +19,7 @@ node main.js
 ```
 And open in a browser: [localhost:2001/hello/](http://localhost:2001/hello/)
 should look like:
-![helloWorld](url:examples/hello/hello.png)
+![helloWorld](url:https://raw.githubusercontent.com/guilala/srcerer/master/examples/hello/hello.png)
 
 ## Todo
 - feature, convention and api documentation. 
