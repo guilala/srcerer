@@ -15,9 +15,16 @@ module.exports = function (extConf) {
    this.root = "./"
    this.appsRoot = "./";
 
-   // Mongodb connections
-   this.db = {
-
+   // cookie
+   this.cookies = {
+      name: "guila.la",
+      keys: ["firstKey", "secondKey"],
+      secret: "Something secret",
+      cookie: {
+         path: "/", 
+         httpOnly: false, 
+         maxAge: 3600000
+      }
    };
 
    // back end modules
