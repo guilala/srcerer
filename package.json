@@ -21,7 +21,7 @@
    ],
 
    "dependencies": {
-      "fs-extra": "0.28.0",
+      "fs-extra": "0.30.0",
       "body-parser": "1.15.0",
       "compression": "1.6.1",
       "cookie-parser": "1.4.1",
