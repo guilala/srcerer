@@ -3,19 +3,25 @@
  * Copyright(c) 2010-2015 Jesse Tijnagel
  * MIT Licensed
  */
+
 var server = require("./lib/server");
 
 module.exports = function (extConf) {
    var configuration = this;
 
+   // general
    this.name = "Srcerer";
    this.version = "0.6.13";
    this.port = 2000;
    this.domain = "127.0.0.1";
    this.root = "./"
    this.appsRoot = "./";
+   this.favicon = false;
+
+   // switch
    this.mountApps = true;
    this.mountIos = true;
+   this.mountSockets = true;
 
    // cookie
    this.cookies = {
@@ -23,8 +29,8 @@ module.exports = function (extConf) {
       keys: ["firstKey", "secondKey"],
       secret: "Something secret",
       cookie: {
-         path: "/", 
-         httpOnly: false, 
+         path: "/",
+         httpOnly: false,
          maxAge: 3600000
       }
    };
@@ -50,3 +56,4 @@ module.exports = function (extConf) {
       server(configuration);
    };
 };
+
