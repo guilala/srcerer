@@ -22,16 +22,16 @@
 
    "dependencies": {
       "fs-extra": "0.30.0",
-      "body-parser": "1.15.1",
+      "body-parser": "1.15.2",
       "compression": "1.6.2",
       "cookie-parser": "1.4.3",
       "cookie-session": "2.0.0-alpha.1",
       "serve-favicon": "2.3.0",
-      "express": "4.13.4",
+      "express": "4.14.0",
       "less": "2.7.1",
       "string-hash": "1.1.0",
       "svgo": "0.6.6",
-      "uglify-js": "2.6.2",
+      "uglify-js": "2.6.4",
       "ws": "1.1.0"
    },
 
