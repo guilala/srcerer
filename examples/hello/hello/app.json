@@ -34,7 +34,7 @@
    "lib": [],
    "style": ["index.less"],
    "stylePaths": ["./"],
-   "static": ["www/"],
+   "staticRoot": "www/",
    "index": "index.html",
    "app": [],
    "blobPaths": [
