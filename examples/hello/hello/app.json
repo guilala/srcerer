@@ -37,7 +37,7 @@
    "static": ["www/"],
    "index": "index.html",
    "app": [],
-   "blobPath": [
+   "blobPaths": [
      "blob/"
    ]
 }
