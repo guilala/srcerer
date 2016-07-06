@@ -14,7 +14,7 @@ module.exports = function (extConf) {
    this.version = "0.6.13";
    this.port = 2000;
    this.domain = "127.0.0.1";
-   this.root = "./"
+   this.root = "./";
    this.appsRoot = "./";
    this.favicon = false;
 
@@ -48,7 +48,7 @@ module.exports = function (extConf) {
    // main
    this.start = function(){
       // map external to internal configuration
-      for(key in extConf){
+      for(var key in extConf){
          if(extConf.hasOwnProperty(key) && configuration.hasOwnProperty(key)){
             configuration[key] = extConf[key];
          }
