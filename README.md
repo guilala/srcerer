@@ -1,5 +1,5 @@
 # Srcerer
-Npm [package](https://www.npmjs.com/package/srcerer) for building and serving light and modular web applications with [Node.js](https://nodejs.org), [MongoDB](https://www.mongodb.com) and [Nginx](http://nginx.org).
+Npm [package](https://www.npmjs.com/package/srcerer) for building and serving light and modular web applications with [Node.js](https://nodejs.org) and [Nginx](http://nginx.org).
 
 ## Purpose
 With Srcerer you can build, and / or serve web applications:
