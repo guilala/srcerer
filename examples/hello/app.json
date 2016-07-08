@@ -1,6 +1,6 @@
 {
    "name": "Hello",
-   "version": "0.0.1",
+   "version": "0.1.0",
    "meta": [
      {
          "charset": "utf-8"
@@ -30,9 +30,9 @@
          "content": "IE=edge"
      }
    ],
-   "ext": [],
+   "externalScripts": [],
    "lib": [],
-   "style": ["index.less"],
+   "inlineCss": ["index.less"],
    "stylePaths": ["./"],
    "staticRoot": "www/",
    "index": "index.html",

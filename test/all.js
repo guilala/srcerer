@@ -11,6 +11,6 @@ exports["test srcerer all"] = function(assert, done) {
    assert.strictEqual(typeof(srcerer.start), "function", "srcerer has start function");
 
    done();
-}
+};
 
-if (module == require.main) require("test").run(exports)
+if (module == require.main) require("test").run(exports);
