@@ -1,3 +1,7 @@
+0.7.2 / 2016-07-27
+===================
+ * Fix bubbles.js destroy function
+
 0.7.1 / 2016-07-27
 ===================
  * Refactor code of server.js and build.js
