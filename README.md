@@ -7,12 +7,18 @@ With Srcerer you can build, and / or serve web applications:
 - lightweight
 
 Use Srcerer if you can:
-- afford to be unconventional about front- end development.
+- afford to be unconventional about cross platform front- end development.
 - aggree HTML is not meant to be written manually.
 - contribute with functionality and improvements.
 
+## Apps
+Srcerer builds applications, and automatically creates nginx files for Nginx to host them.
+
 ## Blobs
-Srcerer builds blobs from source directories. Blobs are minimized files that can contain a model, view, controller, css, and / or svg graphics. The svg format can deliver multiple vector, and pixel graphics.
+Srcerer builds each application by compiling 'blobs' from source directories. Blobs are minimized bytary files that can contain a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg objects. None of them required. The svg format delivers multiple vector, and / or pixel based graphics.
+
+## IO's
+Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. 
 
 ## Dependencies
 - nodeJs >= 4.0.0
