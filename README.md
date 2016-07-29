@@ -15,7 +15,7 @@ Use Srcerer if you can:
 Srcerer builds applications, and automatically creates nginx files for Nginx to host them.
 
 ## Blobs
-Srcerer builds each application by compiling 'blobs' from source directories. Blobs are minimized bytary files that can contain a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg objects. None of them required. The svg format delivers multiple vector, and / or pixel based graphics.
+Srcerer builds each application by compiling 'blobs' from source directories. Blobs are minimized bytary files that can contain a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them required. The svg format delivers multiple vector, and / or pixel based graphics.
 
 ## IO's
 Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. 
