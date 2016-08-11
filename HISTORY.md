@@ -1,3 +1,9 @@
+0.7.6 / 2016-08-11
+===================
+ * build: recreate index after switching debug mode
+ * io: enable io script mounting
+ * build: only build index if appConf is modified
+
 0.7.2 / 2016-07-27
 ===================
  * Fix bubbles.js destroy function
