@@ -1,3 +1,7 @@
+0.7.7 / 2016-08-11
+===================
+ * update comment headers
+
 0.7.6 / 2016-08-11
 ===================
  * build: recreate index after switching debug mode
