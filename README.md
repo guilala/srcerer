@@ -7,11 +7,15 @@ With Srcerer you can build, and / or serve web applications:
 - With a modular client side; say "self-contained web components", or "ShadowDOM".
 - Beeing lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
 
-Use Srcerer if you:
-- Can afford to be unconventional about cross platform front- end development.
+You can also use Srcerer to help:
+- Create interfaces controlling a [Raspberrypi](https://www.raspberrypi.org), or any other Node.js capable hardware.
+- Build snappy mobile applications.
+
+But only use Srcerer if you:
+- Can afford to be unconventional about application development.
 - Can aggree HTML is not meant to be written manually.
 - Contribute with missing functionality and improvements.
-- Favor [fat clients](https://en.wikipedia.org/wiki/Fat_client) architectures.
+- Favor [fat client](https://en.wikipedia.org/wiki/Fat_client) architectures.
 
 ## Application
 Srcerer can build mutliple applications separately, generating the index, and other static files automatically based on any app.json file it finds.
@@ -27,8 +31,7 @@ Srcerer builds each client- side application module by compiling 'blobs' from so
 
 ## Dependencies
 - nodeJs >= 4.0.0
-- nginx
-- dependencies in package.json
+- See dependencies in package.json
 
 ## Run example
 ```bash
@@ -43,6 +46,7 @@ should look like:
 ![helloWorld](examples/hello/hello.png)
 
 ## Todo
-- feature, convention and api documentation. 
-- remove functionality to get Srcerer barebone.
+- Feature, convention and api documentation. 
+- Remove functionality to get Srcerer barebone.
+- Make build process extendable.
 
