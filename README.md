@@ -4,22 +4,26 @@ Npm [package](https://www.npmjs.com/package/srcerer) for building and serving li
 ## Purpose
 With Srcerer you can build, and / or serve web applications:
 - With a modular Node.Js back- end.
-- Whith a modular client side; say "self-contained web components", or "ShadowDOM".
+- With a modular client side; say "self-contained web components", or "ShadowDOM".
 - Beeing lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
 
-Use Srcerer if you can:
-- afford to be unconventional about cross platform front- end development.
-- aggree HTML is not meant to be written manually.
-- contribute with functionality and improvements.
+Use Srcerer if you:
+- can afford to be unconventional about cross platform front- end development.
+- can aggree HTML is not meant to be written manually.
+- contribute with missing functionality and improvements.
+- prefer [fat clients](https://en.wikipedia.org/wiki/Fat_client)
 
-## Apps
-Srcerer builds applications, and automatically creates nginx files for Nginx to host them.
+## Application
+Srcerer can build mutliple applications separately, generating the index, and other static files automatically based on any app.json file it finds.
 
-## Blobs
-Srcerer builds each application by compiling 'blobs' from source directories. Blobs are minimized bytary files that can contain a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them required. The svg format delivers multiple vector, and / or pixel based graphics.
+## Server
+Based on app.json settings and a template, Srcerer can automatically create nginx configuration files. A simlink inside Nginx's 'sites-enabled', and you are hosting the application.
 
-## IO's
-Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. 
+## Back- end
+Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. It mounts scrips configured in any io.json it finds.
+
+## Modular client
+Srcerer builds each client- side application module by compiling 'blobs' from source directories. Blobs are minimized bytary files that can contain a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them required. The svg format delivers multiple vector, and / or pixel based graphics.
 
 ## Dependencies
 - nodeJs >= 4.0.0
