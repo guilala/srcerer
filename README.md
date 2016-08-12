@@ -11,7 +11,7 @@ Use Srcerer if you:
 - Can afford to be unconventional about cross platform front- end development.
 - Can aggree HTML is not meant to be written manually.
 - Contribute with missing functionality and improvements.
-- Prefer a [fat clients](https://en.wikipedia.org/wiki/Fat_client) architecture.
+- Favor [fat clients](https://en.wikipedia.org/wiki/Fat_client) architectures.
 
 ## Application
 Srcerer can build mutliple applications separately, generating the index, and other static files automatically based on any app.json file it finds.
