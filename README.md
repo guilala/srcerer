@@ -8,10 +8,10 @@ With Srcerer you can build, and / or serve web applications:
 - Beeing lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
 
 Use Srcerer if you:
-- can afford to be unconventional about cross platform front- end development.
-- can aggree HTML is not meant to be written manually.
-- contribute with missing functionality and improvements.
-- prefer [fat clients](https://en.wikipedia.org/wiki/Fat_client)
+- Can afford to be unconventional about cross platform front- end development.
+- Can aggree HTML is not meant to be written manually.
+- Contribute with missing functionality and improvements.
+- Prefer a [fat clients](https://en.wikipedia.org/wiki/Fat_client) architecture.
 
 ## Application
 Srcerer can build mutliple applications separately, generating the index, and other static files automatically based on any app.json file it finds.
