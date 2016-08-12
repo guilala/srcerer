@@ -3,8 +3,9 @@ Npm [package](https://www.npmjs.com/package/srcerer) for building and serving li
 
 ## Purpose
 With Srcerer you can build, and / or serve web applications:
-- modular
-- lightweight
+- With a modular Node.Js back- end.
+- Whith a modular client side; say "self-contained web components", or "ShadowDOM".
+- Beeing lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
 
 Use Srcerer if you can:
 - afford to be unconventional about cross platform front- end development.
