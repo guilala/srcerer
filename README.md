@@ -5,7 +5,7 @@ Npm [package](https://www.npmjs.com/package/srcerer) for building and serving li
 With Srcerer you can build, and / or serve web applications:
 - With a modular Node.Js back- end.
 - With a modular client side; say "self-contained web components", or "ShadowDOM".
-- Beeing lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
+- Being lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
 
 You can also use Srcerer to help:
 - Create interfaces controlling a [Raspberrypi](https://www.raspberrypi.org), or any other Node.js capable hardware.
