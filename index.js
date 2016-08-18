@@ -11,7 +11,7 @@ module.exports = function (extConf) {
 
    // general
    this.name = "Srcerer";
-   this.version = "0.8.0";
+   this.version = "0.8.1";
    this.port = 2000;
    this.domain = "127.0.0.1";
    this.root = "./";

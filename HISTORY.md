@@ -1,3 +1,10 @@
+0.8.1 / 2016-08-18
+===================
+ * breaking changes client- side: 
+ * bubbles: remove bloat, make elm types extendable
+ * bubbles: wrap bubbles in 'bubbles' obj for better inheritance
+ * bubbles: use lower camel case
+
 0.7.7 / 2016-08-11
 ===================
  * update comment headers
