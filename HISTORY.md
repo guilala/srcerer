@@ -1,4 +1,4 @@
-0.8.1 / 2016-08-18
+0.8.2 / 2016-08-19
 ===================
  * breaking changes client- side: 
  * bubbles: remove bloat, make elm types extendable
