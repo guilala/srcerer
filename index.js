@@ -35,16 +35,6 @@ module.exports = function (extConf) {
       }
    };
 
-   // back end modules
-   this.modules = [
-
-   ];
-
-   // web socket connections
-   this.sockets = [
-
-   ];
-
    // main
    this.start = function(){
       // map external to internal configuration

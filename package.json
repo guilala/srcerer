@@ -32,7 +32,8 @@
       "string-hash": "1.1.0",
       "svgo": "0.7.0",
       "uglify-js": "2.7.3",
-      "ws": "1.1.1"
+      "ws": "1.1.1",
+      "untildify":"3.0.2"
    },
 
    "engines": {
