@@ -1,3 +1,7 @@
+0.8.3 / 2016-09-09
+===================
+ * Enable web socket mounting functionality
+
 0.8.2 / 2016-08-19
 ===================
  * breaking changes client- side: 
