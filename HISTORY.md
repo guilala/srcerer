@@ -1,3 +1,7 @@
+0.8.4 / 2016-09-15
+===================
+* use untildify for ngix conf paths
+
 0.8.3 / 2016-09-09
 ===================
  * Enable web socket mounting functionality
