@@ -1,3 +1,7 @@
+0.8.6 / 2016-09-27
+===================
+* Expose utils to io's and sockets.
+
 0.8.5 / 2016-09-20
 ===================
 * Use 'script' property for file names of io's and sockets.
