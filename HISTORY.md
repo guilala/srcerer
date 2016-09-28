@@ -1,3 +1,7 @@
+0.8.7 / 2016-09-28
+===================
+* Untildify nginx conf 
+
 0.8.6 / 2016-09-27
 ===================
 * Expose utils to io's and sockets.
