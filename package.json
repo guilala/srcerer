@@ -30,7 +30,7 @@
       "express": "4.14.0",
       "less": "2.7.1",
       "string-hash": "1.1.0",
-      "svgo": "0.7.0",
+      "svgo": "0.7.1",
       "uglify-js": "2.7.3",
       "express-ws": "2.0.0",
       "untildify":"3.0.2"
