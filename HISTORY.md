@@ -1,6 +1,13 @@
+0.8.8 / 2016-10-05
+===================
+* New app configuration syntax for blobs.
+* Parse paths for app configuration blobs.
+* Fix debug mode switching, configureBlobs loop.
+
 0.8.7 / 2016-09-28
 ===================
-* Untildify nginx conf 
+* Add util.parsePaths, including untildify.
+* Untildify nginx conf.
 
 0.8.6 / 2016-09-27
 ===================
@@ -20,7 +27,7 @@
 
 0.8.2 / 2016-08-19
 ===================
- * breaking changes client- side:
+ * Breaking changes client- side:
  * bubbles: remove bloat, make elm types extendable.
  * bubbles: wrap bubbles in 'bubbles' obj for better inheritance.
  * bubbles: use lower camel case.
