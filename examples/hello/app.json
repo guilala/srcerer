@@ -2,33 +2,21 @@
    "name": "Hello",
    "version": "0.1.1",
    "meta": [
-     {
-         "charset": "utf-8"
-     },
-     {
-         "name": "Author",
-         "content": "guila.la"
-     },
-     {
-         "name": "Description",
-         "content": "Example application"
-     },
-     {
-         "name": "Keywords",
-         "content": "srcerer, guila.la"
-     },
-     {
-         "name": "Viewport",
-         "content": "initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"
-     },
-     {
-         "name": "Apple-mobile-web-app-capable",
-         "content": "yes"
-     },
-     {
-         "http-equiv": "x-ua-compatible",
-         "content": "IE=edge"
-     }
+      {
+            "charset": "utf-8"
+      },
+      {
+            "name": "Author",
+            "content": "guila.la"
+      },
+      {
+            "name": "Description",
+            "content": "Example application"
+      },
+      {
+            "name": "Keywords",
+            "content": "srcerer, guila.la"
+      }
    ],
    "externalScripts": [],
    "lib": [],
@@ -37,7 +25,9 @@
    "staticRoot": "www/",
    "index": "index.html",
    "app": [],
-   "blobPaths": [
-     "blob/"
+   "blobs": [
+      {
+         "path":"blob/"
+      }
    ]
 }
