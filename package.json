@@ -1,61 +1,54 @@
 {
-   "name": "srcerer",
-   "version": "0.8.8",
-   "description": "Build light and modular web applications",
-   "private": false,
-   "author": "Jesse Tijnagel <jesse@guila.la>",
-   "contributors": [],
-   "license": "MIT",
-   "homepage": "http://guila.la",
-
-   "repository": {
-      "type": "git",
-      "url": "git@github.com:guilala/srcerer.git"
-   },
-
-   "keywords": [
-      "framework",
-      "build",
-      "web",
-      "app"
-   ],
-
-   "dependencies": {
-      "fs-extra": "0.30.0",
-      "body-parser": "1.15.2",
-      "compression": "1.6.2",
-      "cookie-parser": "1.4.3",
-      "cookie-session": "2.0.0-alpha.1",
-      "serve-favicon": "2.3.0",
-      "express": "4.14.0",
-      "less": "2.7.1",
-      "string-hash": "1.1.0",
-      "svgo": "0.7.1",
-      "uglify-js": "2.7.3",
-      "express-ws": "2.0.0",
-      "untildify":"3.0.2"
-   },
-
-   "engines": {
-      "node": ">= 4.0.0"
-   },
-
-   "files": [
-      "index.js",
-      "LICENSE",
-      "HISTORY.md",
-      "README.md",
-      ".editorconfig",
-      "lib/",
-      "examples/"
-   ],
-
-   "scripts": {
-      "test": "node test/all.js"
-   },
-
-   "devDependencies": {
-      "test": ">=0.6.0"
-   }
+  "name": "srcerer",
+  "version": "0.8.8",
+  "description": "Build light and modular web applications",
+  "private": false,
+  "author": "Jesse Tijnagel <jesse@guila.la>",
+  "contributors": [],
+  "license": "MIT",
+  "homepage": "http://guila.la",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:guilala/srcerer.git"
+  },
+  "keywords": [
+    "framework",
+    "build",
+    "web",
+    "app"
+  ],
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "bufferutil": "1.2.1",
+    "compression": "1.6.2",
+    "cookie-parser": "1.4.3",
+    "cookie-session": "2.0.0-alpha.1",
+    "express": "4.14.0",
+    "express-ws": "2.0.0",
+    "fs-extra": "0.30.0",
+    "less": "2.7.1",
+    "serve-favicon": "2.3.0",
+    "string-hash": "1.1.0",
+    "svgo": "0.7.1",
+    "uglify-js": "2.7.3",
+    "untildify": "3.0.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "HISTORY.md",
+    "README.md",
+    ".editorconfig",
+    "lib/",
+    "examples/"
+  ],
+  "scripts": {
+    "test": "node test/all.js"
+  },
+  "devDependencies": {
+    "test": ">=0.6.0"
+  }
 }
-
