@@ -4,6 +4,9 @@
  * MIT Licensed
  */
 
+/*jslint node: true */
+"use strict";
+
 var server = require("./lib/server");
 
 module.exports = function (extConf) {
@@ -11,7 +14,7 @@ module.exports = function (extConf) {
 
    // general
    this.name = "Srcerer";
-   this.version = "0.8.8";
+   this.version = "0.8.9";
    this.port = 2000;
    this.domain = "127.0.0.1";
    this.root = "./";

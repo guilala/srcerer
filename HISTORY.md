@@ -1,3 +1,8 @@
+0.8.9 / 2016-10-13
+===================
+* Improved websocket performance
+* Use strict mode
+
 0.8.8 / 2016-10-05
 ===================
 * New app configuration syntax for blobs.
