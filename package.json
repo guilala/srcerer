@@ -34,7 +34,7 @@
     "untildify": "3.0.2"
   },
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">= 6.9.1"
   },
   "files": [
     "index.js",

@@ -4,7 +4,7 @@ Npm [package](https://www.npmjs.com/package/srcerer) for building and serving li
 ## Purpose
 With Srcerer you can build, and / or serve web applications:
 - With a modular Node.Js back- end.
-- With a modular client side; say "self-contained web components", or "ShadowDOM".
+- With a modular client side; say "self-contained web components", or "ShadowDOM"; called 'blob'.
 - Being lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
 
 You can also use Srcerer to help:
@@ -24,13 +24,13 @@ Srcerer can build mutliple applications separately, generating the index, and ot
 Based on app.json settings and a template, Srcerer can automatically create nginx configuration files. A simlink inside Nginx's 'sites-enabled', and you are hosting the application.
 
 ## Back- end
-Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. It mounts scrips configured in any io.json it finds.
+Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. It mounts scripts configured in any io.json it finds.
 
 ## Modular client
 Srcerer builds each client- side application module by compiling 'blobs' from source directories. Blobs are minimized bytary files that can contain a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them required. The svg format delivers multiple vector, and / or pixel based graphics.
 
 ## Dependencies
-- nodeJs >= 4.0.0
+- nodeJs >= 6.9.1
 - See dependencies in package.json
 
 ## Run example
@@ -47,6 +47,5 @@ should look like:
 
 ## Todo
 - Feature, convention and api documentation. 
-- Remove functionality to get Srcerer barebone.
 - Make build process extendable.
 
