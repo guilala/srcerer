@@ -27,7 +27,7 @@
     "express-ws": "2.0.0",
     "fs-extra": "1.0.0",
     "less": "2.7.1",
-    "serve-favicon": "2.3.0",
+    "serve-favicon": "2.3.2",
     "string-hash": "1.1.0",
     "svgo": "0.7.1",
     "uglify-js": "2.7.4",
