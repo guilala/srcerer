@@ -29,7 +29,7 @@
       "express": "4.14.0",
       "express-ws": "2.0.0",
       "fs-extra": "1.0.0",
-      "less": "2.7.1",
+      "less": "2.7.2",
       "serve-favicon": "2.3.2",
       "string-hash": "1.1.1",
       "svgo": "0.7.1",
