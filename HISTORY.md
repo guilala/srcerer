@@ -1,6 +1,6 @@
 0.8.10 / 2017-01-12
 ===================
-* Isolate runtime to enable multiple server instances
+* Isolate runtime to allow multiple server instances
 
 0.8.9 / 2016-10-13
 ===================
