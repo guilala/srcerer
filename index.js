@@ -39,9 +39,9 @@ module.exports = function (extConf) {
    };
 
    // main
-   this.start = function(){
+   this.start = function() {
       // map external to internal configuration
-      for(var key in extConf){
+      for(var key in extConf) {
          if(extConf.hasOwnProperty(key) && configuration.hasOwnProperty(key)){
             configuration[key] = extConf[key];
          }
