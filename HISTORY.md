@@ -1,3 +1,7 @@
+0.8.11 / 2017-02-07
+===================
+* drop fs-extra in favour of klaw
+
 0.8.10 / 2017-01-12
 ===================
 * Isolate runtime to allow multiple server instances
