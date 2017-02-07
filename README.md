@@ -18,29 +18,29 @@ But only use Srcerer if you:
 - Favor [fat client](https://en.wikipedia.org/wiki/Fat_client) architectures.
 
 ## Application
-Srcerer can build mutliple applications separately, generating the index, and other static files automatically based on any app.json file it finds.
+Srcerer can build multiple applications separately, generating the index and other static files automatically for each app.json file.
 
 ## Server
-Based on app.json settings and a template, Srcerer can automatically create nginx configuration files. A simlink inside Nginx's 'sites-enabled', and you are hosting the application.
+Based on app.json settings and a template, Srcerer automatically creates Nginx configuration files. A simlink inside Nginx's 'sites-enabled', and you are hosting the application.
 
 ## Back- end
-Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. It mounts scripts configured in any io.json it finds.
+Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. It automatically mounts the scripts configured in the io.json files it finds.
 
 ## Modular client
-Srcerer builds each client- side application module by compiling 'blobs' from source directories. Blobs are minimized bytary files that can contain a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them required. The svg format delivers multiple vector, and / or pixel based graphics.
+Srcerer builds each client- side application module by compiling 'blobs' from source directories. Blobs are minimized 'bytary' files that can contain a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them required. The included svg data delivers multiple vector, and / or pixel based graphics. When not in developer mode, blob requests are cached for reuse at client- side.
 
 ## Dependencies
-- nodeJs >= 6.9.1
+- nodeJs >= 6.9.5
 - See dependencies in package.json
 
 ## Run example
 ```bash
 npm install srcerer
 cd node_modules/srcerer/examples/
-npm i
+npm install
 node main.js
 ```
-And open in a browser: [localhost:2000/hello/](http://localhost:2000/hello/)
+And open in a browser: [localhost:2000/app/hello/](http://localhost:2000/app/hello/)
 should look like:
 
 ![helloWorld](examples/hello/hello.png)
