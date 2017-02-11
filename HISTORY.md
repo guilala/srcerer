@@ -1,3 +1,7 @@
+0.8.12 / 2017-02-11
+===================
+* Bubbles, Internet Explorer workaround: IE11 supports classList, but not on SVG elements.
+
 0.8.11 / 2017-02-07
 ===================
 * drop fs-extra in favour of klaw
