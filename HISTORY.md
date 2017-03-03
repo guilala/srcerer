@@ -1,10 +1,14 @@
+0.9.0 / 2017-03-03
+===================
+* Breaking: make nginx template parsing generic.
+
 0.8.12 / 2017-02-11
 ===================
 * Bubbles, Internet Explorer workaround: IE11 supports classList, but not on SVG elements.
 
 0.8.11 / 2017-02-07
 ===================
-* drop fs-extra in favour of klaw
+* Drop fs-extra in favour of klaw
 
 0.8.10 / 2017-01-12
 ===================
