@@ -1,3 +1,8 @@
+0.10.0 / 2017-03-09
+===================
+* Breaking, permissions: enable io's, apps and sockets in their configuration file, based on server names.
+* Performance: preload io, app and socket configuration files.
+
 0.9.0 / 2017-03-03
 ===================
 * Breaking: make nginx template parsing generic.

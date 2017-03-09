@@ -10,7 +10,7 @@
 var server = require("./lib/server");
 
 module.exports = function (extConf) {
-   var configuration = this;
+   const configuration = this;
 
    // general
    this.name = "Srcerer";
