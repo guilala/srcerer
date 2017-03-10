@@ -1,3 +1,7 @@
+0.10.1 / 2017-03-10
+===================
+* build: add option for custom header tags, such as 'link' for favicon.
+
 0.10.0 / 2017-03-09
 ===================
 * Breaking, permissions: enable io's, apps and sockets in their configuration file, based on server names.
