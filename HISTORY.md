@@ -1,3 +1,9 @@
+0.11.0 / 2017-03-11
+===================
+* server, mountPoints: new option to add server extentions.
+* Breaking, server: drop favicon and session support, use extentions instead.
+* Reduce dependencies from 200 to 148 modules.
+
 0.10.1 / 2017-03-10
 ===================
 * build: add option for custom header tags, such as 'link' for favicon.

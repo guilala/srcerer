@@ -14,24 +14,11 @@ module.exports = function (extConf) {
 
    // general
    this.name = "Srcerer";
-   this.version = "0.10.1";
+   this.version = "0.11.0";
    this.port = 2000;
    this.domain = "127.0.0.1";
    this.root = "./";
    this.appsRoot = "./";
-   this.favicon = false;
-
-   // cookie
-   this.cookies = {
-      name: "guila.la",
-      keys: ["firstKey", "secondKey"],
-      secret: "Something secret",
-      cookie: {
-         path: "/",
-         httpOnly: false,
-         maxAge: 3600000
-      }
-   };
 
    // main
    this.start = function() {
