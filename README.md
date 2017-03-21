@@ -27,11 +27,7 @@ Based on app.json settings and a template, Srcerer automatically creates Nginx c
 Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. It automatically mounts the scripts configured in the io.json files it finds.
 
 ## Modular client
-Srcerer builds each client- side application module by compiling 'blobs' from source directories. Blobs are minimized 'bytary' files that can contain a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them required. The included svg data delivers multiple vector, and / or pixel based graphics. When not in developer mode, blob requests are cached for reuse at client- side.
-
-## Dependencies
-- nodeJs >= 6.9.5
-- See dependencies in package.json
+Srcerer builds each client- side application module by compiling 'blobs' from source directories. A single blob is a collection of minimized files, and can simultaneously serve a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them mandatory. Svg is used as a transporter to delivers multiple vector, and / or pixel based graphics. In production, blob requests are cached for reuse at client- side.
 
 ## Run example
 ```bash

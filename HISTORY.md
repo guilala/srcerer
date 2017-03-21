@@ -1,3 +1,9 @@
+0.12.0 / 2017-03-21
+===================
+* Breaking: Content Security Policy: remove inline script and stylesheet options.
+* CSP, blob: load MVC Javascript using header script tags, and drop use of 'eval'.
+* CSP, blob: load SVG and CSS data from separate files, using corresponding file type.
+
 0.11.0 / 2017-03-11
 ===================
 * server, mountPoints: new option to add server extentions.
