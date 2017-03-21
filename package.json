@@ -29,7 +29,7 @@
       "string-hash": "1.1.3",
       "svgo": "0.7.2",
       "ws": "2.2.1",
-      "uglify-js": "2.8.13",
+      "uglify-js": "2.8.14",
       "untildify": "3.0.2"
    },
 
