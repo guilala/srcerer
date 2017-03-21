@@ -1,6 +1,7 @@
 {
    "name": "Hello",
-   "version": "0.1.1",
+   "server": "*",
+   "version": "0.2.0",
    "meta": [
       {
             "charset": "utf-8"
@@ -18,16 +19,16 @@
             "content": "srcerer, guila.la"
       }
    ],
-   "externalScripts": [],
-   "lib": [],
-   "inlineCss": ["index.less"],
    "stylePaths": ["./"],
    "staticRoot": "www/",
    "index": "index.html",
    "app": [],
    "blobs": [
       {
-         "path":"blob/"
+         "path": "blob"
+      }, {
+         "path": "../share/polyfill/"
       }
    ]
 }
+

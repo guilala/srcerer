@@ -4,11 +4,10 @@ this.model = function (next) {
 };
 
 this.view = function () {
-   var self = this;
    return {
       css: "main",
       elm: [{
-      str: self.modelStr,
+      str: this.modelStr,
       elm: [{
             svg: "ic_kettle_24px"
          }, {
