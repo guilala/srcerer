@@ -1,3 +1,8 @@
+0.12.1 / 2017-04-13
+===================
+* Add svg and css file cache indicators.
+* Fix context of mvcDone callback function.
+
 0.12.0 / 2017-03-21
 ===================
 * Breaking: Content Security Policy: remove inline script and stylesheet options.
