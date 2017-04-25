@@ -1,7 +1,7 @@
 {
-   "name": "Hello",
+   "name": "Hello world",
    "server": "*",
-   "version": "0.2.0",
+   "version": "0.3.0",
    "meta": [
       {
             "charset": "utf-8"
@@ -26,8 +26,6 @@
    "blobs": [
       {
          "path": "blob"
-      }, {
-         "path": "../share/polyfill/"
       }
    ]
 }

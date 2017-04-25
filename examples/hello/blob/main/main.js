@@ -1,26 +1,31 @@
-this.model = function (next) {
-   this.modelStr = "Hello";
+this.model = function (next, ctx, input) {
+   ctx.helloString = "Hello";
+   ctx.worldString = "world";
+
    next();
 };
 
-this.view = function () {
-   return {
+this.view = function (next, setView, ctx) {
+   setView({
       css: "main",
       elm: [{
-      str: this.modelStr,
+      str: ctx.helloString,
       elm: [{
             svg: "ic_kettle_24px"
          }, {
             css: "world",
             blob: {
-               name: "world"
+               name: "world",
+               worldString: ctx.worldString
             }
          }]
       }]
-   };
+   });
+
+   next();
 };
  
-this.controller = function (next) {
+this.controller = function (next, ctx) {
    next();
 };
 

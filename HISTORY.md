@@ -1,3 +1,8 @@
+0.13.0 / 2017-04-25
+===================
+* Breaking: asynchronous views.
+* Breaking: isolate context.
+
 0.12.1 / 2017-04-13
 ===================
 * Add svg and css file cache indicators.
@@ -11,7 +16,7 @@
 
 0.11.0 / 2017-03-11
 ===================
-* server, mountPoints: new option to add server extentions.
+* Server, mountPoints: new option to add server extentions.
 * Breaking, server: drop favicon and session support, use extentions instead.
 * Reduce dependencies from 200 to 148 modules.
 
