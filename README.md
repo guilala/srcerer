@@ -4,7 +4,7 @@ Npm [package](https://www.npmjs.com/package/srcerer) for building and serving li
 ## Purpose
 With Srcerer you can build, and / or serve web applications:
 - With a modular Node.Js back- end.
-- With a modular client side; say "self-contained web components", or "ShadowDOM"; called 'blob'.
+- With a modular client side; say "self-contained web components", or "ShadowDOM" avant la lettre.
 - Being lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
 
 You can also use Srcerer to help:
@@ -42,6 +42,6 @@ should look like:
 ![helloWorld](examples/hello/hello.png)
 
 ## Todo
-- Feature, convention and api documentation. 
-- Make build process extendable.
+- Feature, convention and api documentation.
+- Make build process extendable to support individual needs like CoffeeScript, TypeScript, etc.
 
