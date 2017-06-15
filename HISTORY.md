@@ -1,3 +1,7 @@
+0.13.1 / 2017-06-15
+===================
+* Error handling for socket connections.
+
 0.13.0 / 2017-04-25
 ===================
 * Breaking: asynchronous views.
