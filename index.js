@@ -1,6 +1,6 @@
 /*!
  * Srcerer
- * Copyright(c) 2010-2015 Jesse Tijnagel
+ * Copyright(c) 2010-2017 Jesse Tijnagel (Guilala)
  * MIT Licensed
  */
 
