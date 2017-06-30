@@ -1,3 +1,8 @@
+0.14.0 / 2017-06-30
+===================
+* Add healthcheck functionality.
+* Use package-lock.json file.
+
 0.13.1 / 2017-06-15
 ===================
 * Error handling for socket connections.
