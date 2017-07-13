@@ -1,6 +1,6 @@
 {
    "name": "srcerer",
-   "version": "0.14.0",
+   "version": "0.14.1",
    "description": "Build light and modular web applications",
    "private": false,
    "author": "Jesse Tijnagel <jesse@guila.la>",
@@ -19,7 +19,7 @@
    ],
    "dependencies": {
       "body-parser": "1.17.2",
-      "compression": "1.6.2",
+      "compression": "1.7.0",
       "express": "4.15.3",
       "express-healthcheck": "^0.1.0",
       "klaw": "2.0.0",

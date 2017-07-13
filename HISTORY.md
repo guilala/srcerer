@@ -1,3 +1,10 @@
+0.14.1 / 2017-07-13
+===================
+* Call custom destroyers with context.
+* Always create destroyer; also when there is no view.
+* mountPoints: log version number and relative path.
+* Don't use package-lock.json file.
+
 0.14.0 / 2017-06-30
 ===================
 * Add healthcheck functionality.
