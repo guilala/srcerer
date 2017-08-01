@@ -1,3 +1,8 @@
+0.14.2 / 2017-08-01
+===================
+* Use uglify-js3.
+* Upgrade ws to 3.1.0.
+
 0.14.1 / 2017-07-13
 ===================
 * Call custom destroyers with context.
