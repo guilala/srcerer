@@ -1,6 +1,6 @@
 /*!
  * Srcerer
- * Copyright(c) 2010-2015 Jesse Tijnagel
+ * Copyright(c) 2010-2017 Jesse Tijnagel (Guilala)
  * MIT Licensed
  */
 
@@ -14,7 +14,7 @@ module.exports = function (extConf) {
 
    // general
    this.name = "Srcerer";
-   this.version = "0.13.0";
+   this.version = "0.14.2";
    this.port = 2000;
    this.domain = "127.0.0.1";
    this.root = "./";

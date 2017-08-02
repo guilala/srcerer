@@ -1,3 +1,24 @@
+0.14.2 / 2017-08-01
+===================
+* Use uglify-js3.
+* Upgrade ws to 3.1.0.
+
+0.14.1 / 2017-07-13
+===================
+* Call custom destroyers with context.
+* Always create destroyer; also when there is no view.
+* mountPoints: log version number and relative path.
+* Don't use package-lock.json file.
+
+0.14.0 / 2017-06-30
+===================
+* Add healthcheck functionality.
+* Use package-lock.json file.
+
+0.13.1 / 2017-06-15
+===================
+* Error handling for socket connections.
+
 0.13.0 / 2017-04-25
 ===================
 * Breaking: asynchronous views.
