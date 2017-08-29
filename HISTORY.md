@@ -1,3 +1,8 @@
+0.14.3 / 2017-08-29
+===================
+* Compatibility, discard ansi color output.
+* Bump express, klaw, uglify-js.
+
 0.14.2 / 2017-08-01
 ===================
 * Use uglify-js3.
