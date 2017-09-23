@@ -83,6 +83,7 @@ this.controller = function(next, ctx) {
 };
 
 this.destroy = function(next, ctx) {
+   // do something before this context gets destroyed
    ctx.fadeOutFunction(ctx.dom.someId, next);
 };
 ```
