@@ -1,3 +1,7 @@
+0.14.4 / 2017-09-24
+===================
+* Readme client side example.
+
 0.14.3 / 2017-08-29
 ===================
 * Compatibility, discard ansi color output.

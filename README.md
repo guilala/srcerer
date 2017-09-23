@@ -2,9 +2,9 @@
 Npm [package](https://www.npmjs.com/package/srcerer) for building and serving light and modular web applications with [Node.js](https://nodejs.org) and [Nginx](http://nginx.org).
 
 ## Purpose
-With Srcerer you can build, and / or serve web applications:
+With Srcerer you can build, and / or serve web applications written in vanilla Javascript:
 - With a modular Node.Js back- end.
-- With a modular client side; say "self-contained web components", or "ShadowDOM" avant la lettre.
+- And a modular client side; say "self-contained web components", or "ShadowDOM" avant la lettre.
 - Being lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
 
 You can also use Srcerer to help:
@@ -27,7 +27,7 @@ Based on app.json settings and a template, Srcerer automatically creates Nginx c
 Srcerer hosts interactivity by using [Express](https://expressjs.com)'s req, res, next api for blobs to send and receive interactive data in JSON format. It automatically mounts the scripts configured in the io.json files it finds.
 
 ## Modular client
-Srcerer builds each client- side application module by compiling 'blobs' from source directories. A single blob is a collection of minimized files, and can simultaneously serve a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them mandatory. Svg is used as a transporter to delivers multiple vector, and / or pixel based graphics. In production, blob requests are cached for reuse at client- side.
+Srcerer builds each client- side application module by compiling 'blobs' from source directories. A single blob is a collection of minimized files, and can simultaneously serve a model, view, controller, destroyer, css ([Less](http://lesscss.org)), and svg object. None of them mandatory. Svg is used as a transporter to deliver multiple vector, and / or pixel based graphics. In production, blob requests are cached for reuse at client- side.
 
 ## Run example
 ```bash
@@ -40,6 +40,52 @@ And open in a browser: [localhost:2000/app/hello/](http://localhost:2000/app/hel
 should look like:
 
 ![helloWorld](examples/hello/hello.png)
+
+## Basic client side example
+Srcerer provides modularity and inheritance with little convention
+```javascript
+this.model = function(next, ctx, input) {
+   // inherit something from a parent
+   ctx.inheritedSomething = input.something;
+   ctx.fadeOutFunction = input.fadeOut;
+
+   // define something locally
+   ctx.somethingNew = "world";
+
+   // proceed synchronously or asynchronously when model is set
+   next();
+};
+
+this.view = function(next, elm, ctx) {
+   // dom elements
+   elm([{
+      // div with text node
+      dom: "someId",
+      str: "Hello " + ctx.somethingNew
+   }, {
+      // div with strong text node
+      elm: [{
+         tag: "strong",
+         str: ctx.inheritedSomething
+      }]
+   }]);
+
+   // proceed synchronously or asynchronously when dom elements are created
+   next();
+};
+
+this.controller = function(next, ctx) {
+   // do something with view
+   ctx.dom.someId.style.color = "red";
+
+   // proceed synchronously or asynchronously when controller is set up
+   next();
+};
+
+this.destroy = function(next, ctx) {
+   ctx.fadeOutFunction(ctx.dom.someId, next);
+};
+```
 
 ## Todo
 - Feature, convention and api documentation.
