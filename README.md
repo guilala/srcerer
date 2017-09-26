@@ -8,7 +8,7 @@ With Srcerer you can build, and / or serve web applications written in vanilla J
 - Being lightweight, compatible with conventional browsers, and [webviews](http://developer.telerik.com/featured/what-is-a-webview).
 
 You can also use Srcerer to help:
-- Create interfaces controlling a [Raspberrypi](https://www.raspberrypi.org), or any other Node.js capable hardware, lightweight, and with the use of integrated websocket server.
+- Create interfaces controlling a [Raspberrypi](https://www.raspberrypi.org), or any other Node.js capable hardware, with duplex interaction by use of integrated websocket server.
 - Build snappy mobile applications.
 
 But only use Srcerer if you:
