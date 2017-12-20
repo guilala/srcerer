@@ -1,3 +1,7 @@
+0.14.5 / 2017-12-20
+===================
+* Adapt to new svgo syntax.
+
 0.14.4 / 2017-09-24
 ===================
 * Readme client side example.
