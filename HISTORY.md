@@ -1,3 +1,7 @@
+0.15.0 / 2018-03-09
+===================
+* Breaking: keep generated source separated from compiled source.
+
 0.14.5 / 2017-12-20
 ===================
 * Adapt to new svgo syntax.

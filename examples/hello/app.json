@@ -1,7 +1,7 @@
 {
    "name": "Hello world",
    "server": "*",
-   "version": "0.3.0",
+   "version": "0.4.0",
    "meta": [
       {
             "charset": "utf-8"
@@ -21,6 +21,7 @@
    ],
    "stylePaths": ["./"],
    "staticRoot": "www/",
+   "staticSrc": "src",
    "index": "index.html",
    "app": [],
    "blobs": [

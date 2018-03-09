@@ -1,7 +1,6 @@
 {
    "name": "examples",
    "dependencies": {
-      "bar": "file:.."
+      "srcerer": "file:.."
    }
 }
-
