@@ -13,8 +13,8 @@ module.exports = function (extConf) {
    const configuration = this;
 
    // general
+   this.srcererRoot = __dirname;
    this.name = "Srcerer";
-   this.version = "0.15.0";
    this.port = 2000;
    this.domain = "127.0.0.1";
    this.root = "./";
