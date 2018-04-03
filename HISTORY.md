@@ -1,6 +1,10 @@
+0.15.4 / 2018-04-03
+===================
+* Fix runtime modification cache error for switching app builds with blobs using identical names.
+
 0.15.3 / 2018-04-03
 ===================
-* Fix modified style sheet compression errors. 
+* Fix modified style sheet compression errors.
 
 0.15.2 / 2018-04-03
 ===================
