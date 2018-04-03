@@ -1,3 +1,7 @@
+0.15.2 / 2018-04-03
+===================
+* Write app index file just once, since source and compiled versions are equal.
+
 0.15.1 / 2018-03-16
 ===================
 * Make exterior assets available in debug mode by mounting static www after mounting static source.
