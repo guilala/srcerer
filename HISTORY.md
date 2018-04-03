@@ -1,3 +1,7 @@
+0.15.3 / 2018-04-03
+===================
+* Fix modified style sheet compression errors. 
+
 0.15.2 / 2018-04-03
 ===================
 * Write app index file just once, since source and compiled versions are equal.
