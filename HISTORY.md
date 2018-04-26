@@ -1,3 +1,15 @@
+0.15.4 / 2018-04-03
+===================
+* Fix runtime modification cache error for switching app builds with blobs using identical names.
+
+0.15.3 / 2018-04-03
+===================
+* Fix modified style sheet compression errors.
+
+0.15.2 / 2018-04-03
+===================
+* Write app index file just once, since source and compiled versions are equal.
+
 0.15.1 / 2018-03-16
 ===================
 * Make exterior assets available in debug mode by mounting static www after mounting static source.
