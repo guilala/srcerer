@@ -1,3 +1,7 @@
+0.15.5 / 2018-08-14
+===================
+* Keep order when elm blob attribute value is an array of blobs.
+
 0.15.4 / 2018-04-03
 ===================
 * Fix runtime modification cache error for switching app builds with blobs using identical names.
