@@ -1,3 +1,8 @@
+0.16.0 / 2018-09-12
+===================
+* MS Windows 10 compatibility.
+* Nginx template, separate app, io and socket proxy path configurations.
+
 0.15.5 / 2018-08-14
 ===================
 * Keep order when elm blob attribute value is an array of blobs.
