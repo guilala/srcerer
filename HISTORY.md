@@ -1,3 +1,7 @@
+0.16.1 / 2018-09-26
+===================
+* Add build option for mounting custom static paths.
+
 0.16.0 / 2018-09-12
 ===================
 * MS Windows 10 compatibility.
