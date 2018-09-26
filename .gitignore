@@ -2,6 +2,7 @@
 log
 
 # npm
+.npmrc
 npm-debug.log
 
 # Dependency
