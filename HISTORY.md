@@ -1,3 +1,7 @@
+0.16.2 / 2018-09-27
+===================
+* Add obj.walk util.
+
 0.16.1 / 2018-09-26
 ===================
 * Add build option for mounting custom static paths.
